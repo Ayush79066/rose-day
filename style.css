@@ -1,0 +1,31 @@
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:black;
+color:white;
+font-family:Arial;
+}
+
+.box{text-align:center;}
+
+#distance{font-size:48px;margin:20px;}
+
+#rose{
+width:200px;
+display:none;
+animation:fade 2s ease;
+}
+
+#msg{
+display:none;
+color:pink;
+margin-top:15px;
+}
+
+@keyframes fade{
+from{opacity:0; transform:scale(.5);}
+to{opacity:1;}
+}
